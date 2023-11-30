@@ -27,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Imagen)
+            <img src="@Url.Content($"~/Content/Img/{Model.Imagen}")" alt="Imagen @Model.Nombre"/>
         </dt>
 
         <dd>
